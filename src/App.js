@@ -155,7 +155,7 @@ function App() {
      
      const headingstyle = {
         color: "white",
-        padding: "20px",
+        padding: "50px",
         fontFamily: "Arial",
         textAlign: "center",
 
@@ -185,7 +185,7 @@ function App() {
     return (        
         <div>
             <div>
-                <h1 style={headingstyle}>Create your own token </h1>
+                <h1 style={headingstyle}>SOLTOK</h1>
             </div>
 
             <button style={buttonstyle} onClick={walletConnectionHelper} disabled={loading}>
